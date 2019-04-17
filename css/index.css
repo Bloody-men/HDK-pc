@@ -1,0 +1,75 @@
+﻿.carousel{height: 650px;margin-top: 60px;}
+/*---幻灯片---*/#template{width: 100%;}
+h2{font-weight: 700;text-align: center;margin: 40px auto 20px;}
+.vote{height: 70px;max-width: 1200px;margin:0 auto;}
+.vote li{display: inline-block;height:88px;width: 25%;text-align: center;float:left;overflow: hidden;}
+.vote span{color: #8a8a8a;line-height:60px;font-size: 18px;margin-left:5px;cursor: pointer;}
+.vote img{width: 26px;margin-right: 5px;vertical-align: middle;overflow: none;}
+#template .vote li i{font-size:18px;}
+#template .vote .cover i{color:#649efd;}
+.process li span i{font-size:32px;color:#649efd;vertical-align: middle;}
+.cover{top:100px;position: relative;}
+.bottom{position:absolute;left: 50%;margin-left: -20px;bottom: -28px;}
+.cover>span{color:#649efd;}
+.exhibition{width:100%;height: 470px;background: #f2f2f2;margin-bottom: 20px;}
+.iphone:hover{border:2px solid #e5418d;}
+.exhibition ul{height: 470px;margin:0 auto;max-width: 1200px;}
+.exhibition li{width: 25%;float:left;text-align: center;}
+.exhibition p{height:50px;line-height: 50px;color: #8a8a8a;font-size: 16px;}
+.advantage{width: 73%;max-width: 1200px;height:420px;margin:0 auto 50px;}
+.advantage-left{width: 35%;height: 100%;float: left;}
+.advantage-left-top{height: 50%;}
+.advantage-left-top span{background: #54c2fa;}
+.advantage-left-top span{height: 60px;width: 60px;border-radius:50%;background:#f7f7f7;display: inline-block;line-height: 60px;text-align:center;margin-left: 20px;}
+.advantage-left-top img{width: 60%;vertical-align: middle;}
+.advantage-left-top h3{font-size: 24px;margin: 65px 10px 0;display: inline-block;}
+.advantage-left-top p{font-size: 18px;color: #767676;line-height: 30px;margin: 10px 0px 0px 20px;}
+.advantage-center{width: 30%;height: 100%;float:left;}
+.iphone{width: 67%;max-height: 450px;border:2px solid #5fc6fa;margin:12px auto 0px;border-radius:25px;text-align: center;}
+.iphone>p{width: 5px;height: 5px;border-radius: 50%;display: inline-block;background:#ccc;margin:15px 2px 5px 0px;}
+.iphone>b{width: 30px;height: 5px;border-radius: 5px;background:#ccc;display: inline-block;margin:10px 0px 5px 2px;}
+.iphone>span{display: inline-block;width:33px;height:33px;border-radius: 50%;border:2px solid #ccc;margin-top: 4px;}
+.iphone img{width: 100%;padding: 0 2%;}
+.iphone video{background:url(../picture/tem-group.jpg) no-repeat;background-position:center;background-size: 96% 100%;width: 100%;min-height: 300px;overflow: hidden;padding: 0 2%;display: none;max-height: 360px;}
+.btn-free{width: 180px;height: 48px;font-size: 18px;color: #fff;text-align: center;line-height: 48px;border-radius: 5px;display: block;margin: 32px auto;background-color: #649efd;}
+.btn-free-banner{float: left;margin-left: 35px;background:linear-gradient(to right, #fade08, #f6a726, #f97e6b);}
+.public{width: 100%;background: #f2f2f2;text-align: center;}
+.public>span{display:inline-block;margin: 50px auto 10px;font-size: 24px;}
+.public>p{font-size: 16px;line-height: 30px;}
+.public>img{height:70%;}
+.process{max-width: 1200px;width:70%;height:200px;margin:38px auto;}
+.process p{font-size: 16px;}
+.process li{width: 15.25%;height:200px;float:left;}
+.process span{width:80px;height:80px;background:#fff;border-radius:50%;display: inline-block;line-height: 80px;margin: 35px auto 10px;}
+.process img{max-width: 1200px;line-height: 200px;vertical-align: middle;}
+.arrow{margin-top: 70px;width:13%;height:20px;float:left;}
+.arrow p{display: inline-block;font-size: 14px;color:#8a8a8a;}
+.arrow img{width: 49px;vertical-align: middle;}
+.data{height:650px;background:#fff;}
+.introduce{height: 480px;margin:0 auto;}
+.introduce td{border: 1px solid #f2f2f2;font-size: 16px;}
+.introduce a{color:#000;font-size: 16px;font-weight: 700;}
+.img>img{height: 480px;}
+.background{max-width: 1200px;height:240px;}
+.center{width:100%;text-align: center;background:url(../images/fact-bg.jpg);}
+.background li{margin:10px 4.87%;text-align: center;}
+.background p{color:#f2f2f2;}
+.introduce span{color: #21ade5;font-weight: 700;}
+.introduce table{margin:25px auto;}
+.introduce tr{height: 50px;background:#fff;}
+.case{background:#fff;height: 500px;}
+.title{text-align:center;margin: 40px auto;font-size: 24px;}
+.slide{text-align: center;margin:0 auto;height: 600px;background:#fff;}
+.exhibit{max-width: 1200px;margin:0 auto;}
+.activity{display:inline-block;float:left;width: 29%;margin:10px 2.16%;height: 100%;position: relative;}
+.activity-a .activity-img{width: 100%;height: 220px;min-height:100%;overflow: hidden;}
+.activity-a .activity-img img{width: 100%;min-height: 100%;}
+.activity-a p{height:46px;line-height: 46px;font-size: 16px;color: #000;margin:0;}
+.activity-b{width: 100%;height:100%;position: absolute;top:0px;left: 0px;background: #000;opacity: 0.8;display: none;}
+.activity-b img{width:140px;height: 140px;border:5px solid #fff;position:absolute;top:55px;left: 50%;margin-left: -70px;}
+.activity-b p{color:#fff;font-size:16px;margin-top: 25px;}
+.height{margin:0 auto;max-width: 1200px;background: #fff;}
+.trademark{margin:45px auto;}
+.trademark li{display: inline-block;margin:0 4px 10px 4px;text-align: center;width: 158px;}
+.trademark img{width: 95%;}
+/* Copyright 2018 网罗科技 HDK.NET Inc. All rights reserved.*/

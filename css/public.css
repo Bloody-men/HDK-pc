@@ -1,0 +1,59 @@
+body{overflow-x:hidden;}
+*{padding:0px;margin:0px;}
+html, body, h1, h2, h3{font-family: Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;}
+li{list-style:none ;}
+a, a:hover, a:focus{text-decoration: none;cursor: pointer;}
+p{margin:0;}
+/*眉页*/
+.float{clear:both}
+.oneall_head{position:fixed;z-index:2000;top:0;left:0;width:100%;flex: 0 0 auto;}
+.oneall_head .oneall_head_box{position: relative;background-color: #fff;box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+.oneall_head .oneall_head_box .oneall_inner{width:96%;height:60px;margin:auto;max-width:1200px;margin:0 auto;}
+.oneall_head .oneall_head_box .oneall_inner .oneall_nav{/*width:50%;*/ list-style: none;float: left;}
+.oneall_head .oneall_logo{float: left;padding: 0px;font-size: 24px;margin-right: 7%;}
+.oneall_head .oneall_logo a{display: block;width: 100%;height: 60px;overflow: hidden;text-decoration: none;}
+.oneall_inner .oneall_nav li{float: left;width:120px;text-align:center;}
+.oneall_inner .oneall_nav li a:hover, .oneall_inner .oneall_nav li a:focus{color: #666;}
+.oneall_inner .oneall_nav li a{height:60px;line-height:60px;color: #666;font-size: 14px;display: block;}
+.oneall_nav li.active a{color:#666;border-bottom: 2px #666 solid;}
+.oneall_nav li a:hover{border-bottom: 3px #ccc solid;box-shadow:0 0 5px rgba(0,0,0,0.1);}
+.oneall_accounts{float:right;height: 60px;text-align: center;}
+.oneall_accounts .acounts_box{height:60px;line-height:60px}
+.oneall_accounts .acounts_box .hdk_login-reg{margin-right: 20px;vertical-align: middle;}
+.oneall_accounts .acounts_box .hdk_login-reg a{color:#666;}
+/*脚页*/
+.footBox{width: 100%;height: 280px;background-color: #363b4e;}
+.footBox p{width: 100%;padding-top: 80px;font-size: 36px;color: #fff;text-align: center;}
+.button{width: 400px;height: 48px;margin: 0 auto;padding: 30px 0;}
+.button>a{width: 158px;height: 48px;margin: auto 20px;background-color: #649efd;font-size: 18px;color: #fff;text-align: center;line-height: 48px;float: left;border-radius: 5px;cursor: pointer;}
+.footer{width: 100%;position: relative;min-width: 1200px;background-color: #2c3140;text-align: center;padding: 50px 0;}
+.foot-logo{width: 400px;float: right;margin-right: 80px;margin-top: 10px;}
+.foot-logo span{display: inline-block;position: relative;width: 100px;height: 45px;margin-right: 20px;top: 5px;}
+.foot-logo a{text-decoration: none;color: #333;}
+.foot-logo img{width: 100px;height: 45px;}
+.footBottom{line-height: 22px;width: 1200px;margin: 0 auto;display: block;color: #6d7489;font-size: 12px;text-align: left;}
+.foot-link{padding-bottom: 8px;margin-bottom: 10px;font-size: 16px;border-bottom: 1px solid rgba(255,255,255,.17);width: 650px;}
+.footBottom a{margin-left: 15px;color: #6d7489;}
+.footBottom{line-height: 22px;display: block;color: #6d7489;font-size: 12px;text-align: left;}
+/*手机端眉页*/
+.menu{display: none;}
+.establish{display: block;}
+@media(max-width: 768px){.right{-webkit-transform: translate(-200px, 0);}
+.menu>img{display: block;width: 40px;margin-top: 10px;}
+.oneall_nav{padding-left:30px;position:fixed;top:0;right: 0px;width:200px;height:100%;background:#444;display: none;}
+.establish{display: none;}
+.menu{display: block;float: right;}
+.oneall_inner .oneall_nav li a{color:#fff;}
+.oneall_nav li.active a{color:#649efd;border-bottom: none;}
+.oneall_inner .oneall_nav li a:hover{border-bottom:none;color:#fff;}
+.hdk_login-reg{color:#fff;display: block;}
+.oneall_accounts{position:fixed;top: 330px;right:68px;}
+.oneall_accounts .acounts_box .hdk_login-reg a{color: #fff;}
+.oneall_inner .oneall_nav li{float:none;width:120px;text-align: left;color:#fff;}
+.footBox,.footer{display: none;}}
+
+.footer-wap{position: fixed; left: 0; right: 0px; bottom: 0; padding: 15px 0; text-align: center; border-top: 1px solid #e4e4e4; background-color: #fff;}
+.footer-wap a{display: inline-block; width: 44%; height: 40px; margin: 0 6px; line-height: 40px; font-size: 16px; text-align: center; color: #ff2851; border: 1px solid #ff2851; border-radius: 20px;}
+.footer-wap .btn-red{color: #fff; background-color: #ff2851;}
+@media (min-width: 768px){body{padding-bottom: 0;} .footer-wap{display: none;}}
+/* Copyright 2018 网罗科技 HDK.NET Inc. All rights reserved. */   

@@ -1,0 +1,19 @@
+a{color:#666;}
+.fa-list-ul{line-height: 50px;font-size: 14px;margin-left:7%;color:#ccc;}
+.fa-angle-up{float: right;font-size: 18px;line-height:50px;margin-right: 7%;color:#ccc;}
+.fa-angle-down{line-height: 50px;font-size: 18px;float: right;margin-right: 7%;}
+.help{max-width:1200px;margin:110px auto;}
+.left{width: 20%;float:left;background:#fff;border:1px solid #efefef;z-index: -1;max-width: 240px;}
+.click{line-height: 50px;border-bottom:1px solid #efefef;position: relative;}
+.click_flag{width:81%;display: inline-block;position:absolute;left:18%;top: 0px;color: #666;z-index: 5;cursor: pointer;}
+.item_child li{padding-left: 18%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.item_child{width: 100%;/*display: none;*/}
+.item_child:hover{color:#08f;background:#efefef;}
+.class{width: 100%;display: inline-block;color:#08f;border: 0 solid #08f; border-left-width: 2px; background: #e0f1ff;}
+.content{width: 78%;padding: 12px 2%;float:right;}
+.clearfloat{clear:both} /*清除浮动*/
+.title{border-bottom:1px solid #ccc;margin-bottom: 20px;}
+.title>h3{margin-top: 10px;font-size: 24px;color:#595961;}
+.content img{max-width:100%;}
+.content>span{font-size: 16px;}
+.content>p{margin-top: 20px;}

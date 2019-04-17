@@ -1,0 +1,20 @@
+li{list-style: none;float:left;}
+.fa-check{color:#12cd80;font-size: 24px;-webkit-text-stroke: 3px #fff;}
+.fa-close{color:red;font-size:24px;-webkit-text-stroke: 3px #fff;}
+.setMeal{max-width: 1200px;
+border:1px solid #eee;
+height:210px;
+margin:100px auto 0px;}
+.setMeal-a{width:30%;height:100%;float: left;}
+.setMeal-a>p{border-top:6px solid #dcdcdc;text-align: center;font-size: 22px; height: 150px; line-height:150px;}
+.table>p{display:inline-block;height: 60px;line-height:60px;border:1px solid #eee;float:left;text-align: center;font-size:16px;}
+.setMeal-b{width: 70%;height: 100%;float:right;margin:0px;}
+.setMeal-b>li{width: 25%;height:100%;border-left:1px solid #eee;text-align: center;padding-top:42px;}
+.setMeal-b>li>span{font-size: 18px;color: #000;}
+.setMeal-b>li>p{font-size: 20px; font-weight: 400;color:#ff4d4d;margin: 10px auto;}
+.setMeal-b>li>a{font-size: 14px; text-align: center; color: #fff; width: 53%; height: 32px; line-height: 32px; border-radius: 32px; background: #12cd80; display: inline-block; margin-bottom: 10px;}
+.setMeal-b>li b{font-weight:300;font-size: 16px;color: #b2b2b2;}
+table{margin:0 auto 50px;} tr,td{width: 1200px; height: 42px;line-height:42px;text-align: center;border:2px solid #eee;}
+#hdk-mode{font-size: 18px;padding: 12px;text-align: center;}
+.explain td{text-align: left;padding-left: 60px;color: #000;}
+/* Copyright 2018 网罗科技 HDK.NET Inc. All rights reserved. */
